@@ -1,10 +1,11 @@
-//api key for omdb: 5d673c51
+var omdbkey = "5d673c51";
 require("dotenv").config();
 var keys = require("./keys.js");
 var axios = require("axios");
 var fs = require("fs");
 var moment = require('moment');
 var spotify = require('node-spotify-api');
+var omdbKey = "5d673c51";
 var spotifyKeys = new spotify(keys.spotify);
 var searchType = process.argv[2];
 var searchTerm = process.argv.slice(3).join(" ");
@@ -27,7 +28,12 @@ function typeOfSearch(searchType) {
             break;
 
         case "movie-this":
-            getMovie();
+        if (searchTerm) {
+            getMovie(searchTerm);
+        }
+        else {
+            getMovie("Mr.Nobody")
+        }
             break;
 
         case "do-what-it-says":
@@ -81,9 +87,25 @@ function typeOfSearch(searchType) {
         )
     };
 
-    function getMovie() {
-
-    }
+    function getMovie(movie) {
+        var URL = "http://www.omdbapi.com/?t=" + movie + "&apikey=" + omdbKey;
+        axios.get(URL).then(function (response) {
+ 
+            var jsonData = response.data;
+            var showData = [
+                "Title: " + jsonData.Title,
+                "Year Made: " + jsonData.Year,
+                "IMDB Rating: " + jsonData.Ratings[0].Value,
+                "Rotten Tomatoes Rating: " + jsonData.Ratings[1].Value,
+                "Country Produced: " + jsonData.Country,
+                "Language: " + jsonData.Language,
+                "Plot: " + jsonData.Plot,
+                "Actors: " + jsonData.Actors,
+                "\n--------------------------------------------------------\n"
+            ].join("\n");
+            addLog(showData);
+        });
+    };
 
     function doWhatItSays() {
 

@@ -1218,3 +1218,33 @@ City: Sacramento
 Date: 10/11/2019
 
 --------------------------------------------------------
+Title: Rush Hour
+Year Made: 1998
+IMDB Rating: 7.0/10
+Rotten Tomatoes Rating: 60%
+Country Produced: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong Inspector teams up with a reckless and loudmouthed L.A.P.D. detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+
+--------------------------------------------------------
+Title: Rush Hour
+Year Made: 1998
+IMDB Rating: 7.0/10
+Rotten Tomatoes Rating: 60%
+Country Produced: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong Inspector teams up with a reckless and loudmouthed L.A.P.D. detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+
+--------------------------------------------------------
+Title: Mr. Nobody
+Year Made: 2009
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+Country Produced: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+--------------------------------------------------------
