@@ -1,6 +1,8 @@
 # liribot
 There are only 4 commands that liri can take currently.You can issues command by the following format:
+
 node liri *searchType searchTerm*
+
 searchType is one of the listed commands below and searchTerm is the band, song, or movie you would like to search.
 
   1. **concert-this**
