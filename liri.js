@@ -1,4 +1,3 @@
-var omdbkey = "5d673c51";
 require("dotenv").config();
 var keys = require("./keys.js");
 var axios = require("axios");
@@ -15,7 +14,12 @@ typeOfSearch(searchType);
 function typeOfSearch(searchType) {
     switch (searchType) {
         case "concert-this":
-            getConcert();
+            if (searchTerm) {
+                getConcert();
+            }
+            else {
+                getConcert("Axis of Awesome")
+            }
             break;
 
         case "spotify-this-song":
@@ -28,12 +32,12 @@ function typeOfSearch(searchType) {
             break;
 
         case "movie-this":
-        if (searchTerm) {
-            getMovie(searchTerm);
-        }
-        else {
-            getMovie("Mr.Nobody")
-        }
+            if (searchTerm) {
+                getMovie(searchTerm);
+            }
+            else {
+                getMovie("Mr.Nobody")
+            }
             break;
 
         case "do-what-it-says":
@@ -41,8 +45,8 @@ function typeOfSearch(searchType) {
             break;
     }
 
-    function getConcert() {
-        var URL = "https://rest.bandsintown.com/artists/" + searchTerm + "/events?app_id=codingbootcamp";
+    function getConcert(band) {
+        var URL = "https://rest.bandsintown.com/artists/" + band + "/events?app_id=codingbootcamp";
         axios.get(URL).then(function (response) {
             var jsonData = response.data;
             for (var i = 0; i < jsonData.length; i++) {
@@ -69,9 +73,7 @@ function typeOfSearch(searchType) {
                     console.log("Error occurred: " + err);
                     return;
                 }
-
                 var response = data.tracks.items;
-
                 for (var i = 0; i < response.length; i++) {
                     //console.log(response[i].artists[0].name);
                     var showData = [
@@ -90,7 +92,7 @@ function typeOfSearch(searchType) {
     function getMovie(movie) {
         var URL = "http://www.omdbapi.com/?t=" + movie + "&apikey=" + omdbKey;
         axios.get(URL).then(function (response) {
- 
+
             var jsonData = response.data;
             var showData = [
                 "Title: " + jsonData.Title,
@@ -108,7 +110,11 @@ function typeOfSearch(searchType) {
     };
 
     function doWhatItSays() {
-
+        fs.readFile('random.txt', "utf8", function (err, data) {
+            if (err) throw err;
+            var txt = data.split(',');
+            getSong(txt[1]);
+        });
     }
     function addLog(data) {
         fs.appendFile("log.txt", data, function (err) {
