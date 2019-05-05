@@ -15,10 +15,10 @@ function typeOfSearch(searchType) {
     switch (searchType) {
         case "concert-this":
             if (searchTerm) {
-                getConcert();
+                getConcert(searchTerm);
             }
             else {
-                getConcert("Axis of Awesome")
+                getConcert("Blink-182");
             }
             break;
 
