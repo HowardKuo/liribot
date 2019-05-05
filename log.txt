@@ -1,0 +1,148 @@
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: --------------------------------------------------------Venue: Outside Lands 2019
+City: Sf
+Date: --------------------------------------------------------Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: --------------------------------------------------------Venue: Aftershock 2019
+City: Sacramento
+Date: --------------------------------------------------------Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: undefined
+--------------------------------------------------------Venue: Aftershock 2019
+City: Sacramento
+Date: undefined
+--------------------------------------------------------Venue: Festival d'été de Québec 2019
+City: Québec
+Date: undefined
+--------------------------------------------------------Venue: Outside Lands 2019
+City: Sf
+Date: undefined
+--------------------------------------------------------Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 2019-06-29T14:00:00
+--------------------------------------------------------Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 2019-07-14T19:00:10
+--------------------------------------------------------Venue: Aftershock 2019
+City: Sacramento
+Date: 2019-10-11T19:00:40
+--------------------------------------------------------Venue: Outside Lands 2019
+City: Sf
+Date: 2019-08-09T19:00:55
+--------------------------------------------------------Venue: Outside Lands 2019
+City: Sf
+Date: 2019-08-09T19:00:55
+--------------------------------------------------------
+Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 2019-06-29T14:00:00
+--------------------------------------------------------
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 2019-07-14T19:00:10
+--------------------------------------------------------
+Venue: Aftershock 2019
+City: Sacramento
+Date: 2019-10-11T19:00:40
+--------------------------------------------------------
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 2019-07-14T19:00:10
+
+--------------------------------------------------------
+Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 2019-06-29T14:00:00
+
+--------------------------------------------------------
+Venue: Outside Lands 2019
+City: Sf
+Date: 2019-08-09T19:00:55
+
+--------------------------------------------------------
+Venue: Aftershock 2019
+City: Sacramento
+Date: 2019-10-11T19:00:40
+
+--------------------------------------------------------
+Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 06 29 2019
+
+--------------------------------------------------------
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 07 14 2019
+
+--------------------------------------------------------
+Venue: Aftershock 2019
+City: Sacramento
+Date: 10 11 2019
+
+--------------------------------------------------------
+Venue: Outside Lands 2019
+City: Sf
+Date: 08 09 2019
+
+--------------------------------------------------------
+Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 06/29/2019
+
+--------------------------------------------------------
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 07/14/2019
+
+--------------------------------------------------------
+Venue: Aftershock 2019
+City: Sacramento
+Date: 10/11/2019
+
+--------------------------------------------------------
+Venue: Outside Lands 2019
+City: Sf
+Date: 08/09/2019
+
+--------------------------------------------------------
+Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 06/29/2019
+
+--------------------------------------------------------
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 07/14/2019
+
+--------------------------------------------------------
+Venue: Outside Lands 2019
+City: Sf
+Date: 08/09/2019
+
+--------------------------------------------------------
+Venue: Aftershock 2019
+City: Sacramento
+Date: 10/11/2019
+
+--------------------------------------------------------
+Venue: Vans Warped Tour 25th Anniversary
+City: Atlantic City
+Date: 06/29/2019
+
+--------------------------------------------------------
+Venue: Festival d'été de Québec 2019
+City: Québec
+Date: 07/14/2019
+
+--------------------------------------------------------
+Venue: Aftershock 2019
+City: Sacramento
+Date: 10/11/2019
+
+--------------------------------------------------------
+Venue: Outside Lands 2019
+City: Sf
+Date: 08/09/2019
+
+--------------------------------------------------------
